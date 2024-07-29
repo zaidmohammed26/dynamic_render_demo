@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel</title>
+  </head>
+  <body>
+    <h1>Admin Panel</h1>
+    <form action="/admin" method="POST">
+      <label for="h1Text">Change H1 Text:</label>
+      <input type="text" id="h1Text" name="h1Text" value="<%= h1Text %>" />
+      <button type="submit">Submit</button>
+    </form>
+    <a href="/">Back to Home</a>
+  </body>
+</html>
